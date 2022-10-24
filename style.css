@@ -132,4 +132,10 @@ body{
         background: none;
         
     }
+    #main .main-container{
+        padding: 20px;
+    }
+    #main .main-container h2{
+        font-size: 40px;
+    }
 }
