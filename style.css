@@ -14,7 +14,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     position: sticky;
 }
 #navbar ul {
@@ -38,6 +38,7 @@ body{
     color:#e12454;
 }
 #navbar #hamburger{
+    padding: 20px;
     background-color: transparent;
     border: 0;
     font-size: 20px;
@@ -159,7 +160,9 @@ body{
     #navbar ul li:hover ul.dropdown {
         position:relative;
         display: block;
+        
     }
+    
     
 
     /* main */
