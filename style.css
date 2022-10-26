@@ -38,7 +38,7 @@ body{
     color:#e12454;
 }
 #navbar #hamburger{
-    padding: 20px;
+    margin: 20px;
     background-color: transparent;
     border: 0;
     font-size: 20px;
