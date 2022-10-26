@@ -48,6 +48,34 @@ body{
 #navbar #hamburger:focus{
     outline: none;
 }
+/* drop down menu */
+
+#navbar ul li {
+    position: relative;
+}
+#navbar ul li ul.dropdown{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    left: -25px;
+    background-color: #fff;
+    border-top: 5px solid #e12454;
+    margin-bottom: 10px;
+    
+}
+#navbar ul li ul.dropdown li {
+    width: 100%;
+    position: relative;
+
+    padding: 15px 30px;
+    border-bottom: 1px solid #888;
+}
+#navbar ul li:hover ul.dropdown{
+    display: block;
+
+}
+
+
 /* main */
 #main{
     background: url(./images/bg/slider-bg-1.jpg) no-repeat center center/cover;
@@ -126,6 +154,14 @@ body{
     #navbar #hamburger{
         display: block;
     }
+    /* dropmenu */
+
+    #navbar ul li:hover ul.dropdown {
+        position:relative;
+        display: block;
+    }
+    
+
     /* main */
     #main{
         background-color: #fff;
